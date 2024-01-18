@@ -265,6 +265,11 @@ section .title::after{
     color: blue;
     background: none;
 }
+.row{
+display: flex;
+gap: 25px
+;
+}
 
 /* services section styling */
 .services, .teams{
@@ -284,6 +289,7 @@ section .title::after{
 .title2::after{
     background: #111;
     content: "Projects";
+    
 }
 .services .serv-content .card{
     width: calc(33% - 20px);

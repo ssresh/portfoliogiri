@@ -224,7 +224,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "Know more about him";
+    /* content: "Know more about him"; */
 }
 .about .about-content .left{
     width: 45%;
@@ -409,7 +409,7 @@ gap: 25px
 
 /* teams section styling */
 .teams .title::after{
-    content: "what people says about him";
+    /* content: "what people says about him"; */
 }
 .teams .carousel .card{
     background: #222;
@@ -472,7 +472,7 @@ gap: 25px
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch with him";
+    /* content: "get in touch with him"; */
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -603,6 +603,18 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+
+    section .title::after {
+        position: absolute;
+        bottom: -55px;
+        left: 50%;
+        font-size: 20px;
+        color: blue;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
+    
     .menu-btn{
         display: block;
         z-index: 999;

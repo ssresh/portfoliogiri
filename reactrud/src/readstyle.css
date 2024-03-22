@@ -1,0 +1,9 @@
+th,td{
+    background-color: blueviolet;
+    padding: 8px;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+}
